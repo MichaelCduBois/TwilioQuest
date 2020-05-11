@@ -1,0 +1,8 @@
+Executing script: C:\Users\yegna\Documents\Bytement\Programs\TwilioQuest\quest\fizzbuzz.py
+Script arguments: -3000,7,6,100
+Output:
+Traceback (most recent call last):
+  File "C:\Users\yegna\Documents\Bytement\Programs\TwilioQuest\quest\fizzbuzz.py", line 4, in <module>
+    if int(n) % 3 and n % 5:
+ValueError: invalid literal for int() with base 10: 'C:\\Users\\yegna\\Documents\\Bytement\\Programs\\TwilioQuest\\quest\\fizzbuzz.py'
+
