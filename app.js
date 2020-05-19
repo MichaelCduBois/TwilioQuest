@@ -42,6 +42,7 @@ app.post('/message', function(req, res, next) {
   }).then(function(message) {
     // When we get a response from Twilio, respond to the HTTP POST request
     res.send('Message is inbound!');
+    console.log(`${message.sid}`)
   });
 });
 
